@@ -1,0 +1,910 @@
+[
+  {
+    "title": "Find the maximum subarray sum (Kadane's Algorithm)",
+    "description": "Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[-2,1,-3,4,-1,2,1,-5,4]", "expectedOutput": "6" }
+    ]
+  },
+  {
+    "title": "Rotate an array by k positions",
+    "description": "Given an array, rotate the array to the right by `k` steps, where `k` is non-negative.",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "[1,2,3,4,5,6,7]\n3", "expectedOutput": "[5,6,7,1,2,3,4]" }
+    ]
+  },
+  {
+    "title": "Find two numbers that add up to a target sum",
+    "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[2,7,11,15]\n9", "expectedOutput": "[0,1]" }
+    ]
+  },
+  {
+    "title": "Merge two sorted arrays",
+    "description": "You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order. Merge `nums1` and `nums2` into a single array sorted in non-decreasing order.",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[1,2,3,0,0,0]\n3\n[2,5,6]\n3", "expectedOutput": "[1,2,2,3,5,6]" }
+    ]
+  },
+  {
+    "title": "Find the missing number in an array of 1 to n",
+    "description": "Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[3,0,1]", "expectedOutput": "2" }
+    ]
+  },
+  {
+    "title": "Remove duplicates from sorted array",
+    "description": "Given a sorted array `nums`, remove the duplicates in-place such that each element appears only once and return the new length.",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[0,0,1,1,1,2,2,3,3,4]", "expectedOutput": "5" }
+    ]
+  },
+  {
+    "title": "Find the intersection of two arrays",
+    "description": "Given two integer arrays `nums1` and `nums2`, return an array of their intersection.",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "[4,9,5]\n[9,4,9,8,4]", "expectedOutput": "[9,4]" }
+    ]
+  },
+  {
+    "title": "Maximum product subarray",
+    "description": "Given an integer array `nums`, find a contiguous non-empty subarray within the array that has the largest product, and return the product.",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "[2,3,-2,4]", "expectedOutput": "6" }
+    ]
+  },
+  {
+    "title": "Container with most water",
+    "description": "You are given an integer array `height` of length `n`. Find two lines that together with the x-axis form a container, such that the container contains the most water.",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "[1,8,6,2,5,4,8,3,7]", "expectedOutput": "49" }
+    ]
+  },
+  {
+    "title": "3Sum problem - find triplets that sum to zero",
+    "description": "Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.",
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "[-1,0,1,2,-1,-4]", "expectedOutput": "[[-1,-1,2],[-1,0,1]]" }
+    ]
+  },
+  {
+    "title": "Reverse a linked list",
+    "description": "Given the `head` of a singly linked list, reverse the list, and return the new head.",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[1,2,3,4,5]", "expectedOutput": "[5,4,3,2,1]" }
+    ]
+  },
+  {
+    "title": "Detect cycle in a linked list",
+    "description": "Given `head`, the head of a linked list, determine if the linked list has a cycle in it.",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[3,2,0,-4] with cycle to pos 1", "expectedOutput": "true" }
+    ]
+  },
+  {
+    "title": "Find the middle element of a linked list",
+    "description": "Given the `head` of a non-empty singly linked list, return the middle node of the linked list.",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[1,2,3,4,5,6]", "expectedOutput": "4" }
+    ]
+  },
+  {
+    "title": "Merge two sorted linked lists",
+    "description": "You are given the heads of two sorted linked lists `list1` and `list2`. Merge the two lists into one sorted list.",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[1,2,4]\n[1,3,4]", "expectedOutput": "[1,1,2,3,4,4]" }
+    ]
+  },
+  {
+    "title": "Remove nth node from end of list",
+    "description": "Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.",
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "[1,2,3,4,5]\n2", "expectedOutput": "[1,2,3,5]" }
+    ]
+  },
+  {
+    "title": "Add two numbers represented by linked lists",
+    "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order. Add the two numbers and return the sum as a linked list.",
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "[2,4,3]\n[5,6,4]", "expectedOutput": "[7,0,8]" }
+    ]
+  },
+  {
+    "title": "Clone a linked list with random pointers",
+    "description": "A linked list of length `n` is given such that each node contains an additional random pointer. Construct a deep copy of the list.",
+    "topic": "Linked Lists",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Check if a linked list is palindrome",
+    "description": "Given the `head` of a singly linked list, return `true` if it is a palindrome.",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[1,2,2,1]", "expectedOutput": "true" }
+    ]
+  },
+  {
+    "title": "Find intersection point of two linked lists",
+    "description": "Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect.",
+    "topic": "Linked Lists",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Remove duplicates from sorted linked list",
+    "description": "Given the `head` of a sorted linked list, delete all duplicates such that each element appears only once.",
+    "topic": "Linked Lists",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[1,1,2,3,3]", "expectedOutput": "[1,2,3]" }
+    ]
+  },
+  {
+    "title": "Implement stack using arrays",
+    "description": "Implement a last-in-first-out (LIFO) stack using only two queues.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Valid parentheses checker",
+    "description": "Given a string `s` containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "()[]{}", "expectedOutput": "true" }
+    ]
+  },
+  {
+    "title": "Next greater element using stack",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Implement queue using two stacks",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Largest rectangle in histogram",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Sliding window maximum",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Min stack - get minimum in O(1)",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Evaluate postfix expression",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Stock span problem",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Circular queue implementation",
+    "description": "Placeholder description. Please update.",
+    "topic": "Stacks & Queues",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Binary tree traversal (inorder, preorder, postorder)",
+    "description": "Given the `root` of a binary tree, return the preorder traversal of its nodes' values.",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Find height/depth of binary tree",
+    "description": "Given the `root` of a binary tree, find its maximum depth.",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Check if binary tree is balanced",
+    "description": "Given a binary tree, determine if it is height-balanced.",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Lowest common ancestor in binary tree",
+    "description": "Placeholder description. Please update.",
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Binary tree to doubly linked list",
+    "description": "Placeholder description. Please update.",
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Validate binary search tree",
+    "description": "Given the `root` of a binary tree, determine if it is a valid binary search tree (BST). A valid BST has the following properties: The left subtree of a node contains only nodes with keys less than the node's key. The right subtree of a node contains only nodes with keys greater than the node's key. Both the left and right subtrees must also be binary search trees.",
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "hints": [
+      "Remember that the entire left subtree must be less than the node, not just the immediate child.",
+      "A recursive helper function that checks if a node's value is within a valid range (min, max) is a good approach."
+    ],
+    "starterCode": [
+      {
+        "language": "javascript",
+        "code": "/**\n * @param {TreeNode} root\n * @return {boolean}\n */\nvar isValidBST = function(root) {\n    \n};"
+      }
+    ],
+    "testCases": [
+      {
+        "input": "[2,1,3]",
+        "expectedOutput": "true"
+      },
+      {
+        "input": "[5,1,4,null,null,3,6]",
+        "expectedOutput": "false"
+      }
+    ]
+  },
+  {
+    "title": "Level order traversal",
+    "description": "Placeholder description. Please update.",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Diameter of binary tree",
+    "description": "Placeholder description. Please update.",
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Serialize and deserialize binary tree",
+    "description": "Placeholder description. Please update.",
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Path sum problems",
+    "description": "Placeholder description. Please update.",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Fibonacci sequence optimization",
+    "description": "The Fibonacci numbers, commonly denoted `F(n)`, form a sequence such that each number is the sum of the two preceding ones, starting from 0 and 1. Given `n`, calculate `F(n)`.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "0/1 Knapsack problem",
+    "description": "You are given weights and values of `n` items. Put these items in a knapsack of capacity `W` to get the maximum total value.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Longest increasing subsequence",
+    "description": "Given an integer array `nums`, return the length of the longest strictly increasing subsequence.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Edit distance between strings",
+    "description": "Placeholder description. Please update.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Coin change problem",
+    "description": "You are given an integer array `coins` representing coins of different denominations and an integer `amount`. Return the fewest number of coins that you need to make up that amount.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Maximum path sum in triangle",
+    "description": "Placeholder description. Please update.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Longest common subsequence",
+    "description": "Placeholder description. Please update.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "House robber problem",
+    "description": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, but you cannot rob two adjacent houses. Return the maximum amount of money you can rob.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "[2,7,9,3,1]", "expectedOutput": "12" }
+    ]
+  },
+  {
+    "title": "Climbing stairs variations",
+    "description": "Placeholder description. Please update.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Palindrome partitioning",
+    "description": "Placeholder description. Please update.",
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Breadth-first search (BFS)",
+    "description": "Given a graph, traverse it using the Breadth-First Search algorithm starting from a given source vertex.",
+    "topic": "Graphs",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Depth-first search (DFS)",
+    "description": "Given a graph, traverse it using the Depth-First Search algorithm starting from a given source vertex.",
+    "topic": "Graphs",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Detect cycle in directed graph",
+    "description": "Placeholder description. Please update.",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Shortest path algorithms (Dijkstra)",
+    "description": "Placeholder description. Please update.",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Minimum spanning tree (Kruskal/Prim)",
+    "description": "Placeholder description. Please update.",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Topological sorting",
+    "description": "Given a Directed Acyclic Graph (DAG), find any valid Topological Sort of the graph.",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Number of islands problem",
+    "description": "Placeholder description. Please update.",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Clone a graph",
+    "description": "Placeholder description. Please update.",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Word ladder problem",
+    "description": "Placeholder description. Please update.",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Course schedule prerequisites",
+    "description": "There are `numCourses` courses to take. Some courses may have prerequisites. Return `true` if you can finish all courses. Otherwise, return `false`.",
+    "topic": "Graphs",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Binary search implementation",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Quick sort algorithm",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Merge sort algorithm",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Find peak element",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Search in rotated sorted array",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Find first and last position of element",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Kth largest element in array",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Count inversions in array",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Search in 2D matrix",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Square root using binary search",
+    "description": "Placeholder description. Please update.",
+    "topic": "Sorting & Searching",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Two sum using hash map",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Group anagrams together",
+    "description": "Given an array of strings `strs`, group the anagrams together. You can return the answer in any order.",
+    "topic": "Hash Tables",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Longest substring without repeating characters",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Find all anagrams in string",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Top K frequent elements",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Valid anagram checker",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "First non-repeating character",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Subarray sum equals K",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Longest consecutive sequence",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Design hash map from scratch",
+    "description": "Placeholder description. Please update.",
+    "topic": "Hash Tables",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Reverse words in a string",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Longest palindromic substring",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "String to integer (atoi)",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Validate IP address",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Longest common prefix",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "String compression",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Palindrome checker",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Pattern matching (KMP algorithm)",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Minimum window substring",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Regular expression matching",
+    "description": "Placeholder description. Please update.",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "N-Queens problem",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Generate all subsets",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Permutations of array",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Sudoku solver",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Word search in 2D grid",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Combination sum problem",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Letter combinations of phone number",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Easy",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Generate parentheses",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Medium",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  },
+  {
+    "title": "Rat in maze problem",
+    "description": "Placeholder description. Please update.",
+    "topic": "Backtracking",
+    "difficulty": "Hard",
+    "testCases": [
+      { "input": "placeholder", "expectedOutput": "placeholder" }
+    ]
+  }
+]

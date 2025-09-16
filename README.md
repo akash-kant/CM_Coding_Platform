@@ -1,5 +1,7 @@
 # 🖥 All-in-One Compiler
 
+![Coding Mirchi Logo](client/public/Allinone compiler banner.png)
+
 🚀 A web-based compiler and coding practice platform that brings together everything you need to learn and practice coding — all in one place. 
 
 Unlike basic compilers, this project not only supports multiple programming languages but also comes with advanced features such as coding question generation, database storage, progress tracking, and a personalized dashboard. 

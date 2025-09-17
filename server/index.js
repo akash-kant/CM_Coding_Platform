@@ -17,9 +17,29 @@ connectDB();
 
 const app = express();
 
+// Allowed Origins
+const allowedOrigins = [
+  process.env.FRONTEND_URL,     // Vercel frontend
+  "http://localhost:5173",      // Vite dev
+  "http://localhost:3000"       // React/Next.js dev
+];
+
 // Middleware Setup
-app.use(cors()); // Handles Cross-Origin Resource Sharing
-app.use(express.json()); // Allows server to accept JSON data in body
+app.use(cors({
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps, Postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error("CORS not allowed from this origin"), false);
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
+app.use(express.json()); // Accept JSON data in body
 
 // API Routes
 app.use('/api/auth', authRoutes);
@@ -32,5 +52,5 @@ const PORT = process.env.PORT || 5000;
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`✅ Server is running on port ${PORT}`);
 });
